@@ -50,11 +50,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
  - Go back to Azure Portal to capture VM2 private ip address
   - Type Virtual Machine in Azure search box, click VM2, notice the private ip address in Networking section
+
   
 <p>
 <img src="https://i.imgur.com/XbM5bwW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
+ 
 - Return to VM1
 - Open Windows Powershell
  - Ping VM2 using its private address.  Notice the Reply
