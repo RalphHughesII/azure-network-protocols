@@ -84,10 +84,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
    - Click "continue without saving"
    - Wireshark data should be cleared
- - go back to Windows Powershell and type "ping (vm2 private address) -t" and press enter.  Observe constant pinging
+ 
+     
+ <h3>Observe SSH Traffic</h3>
 
-  <img src="https://i.imgur.com/ho7YOm5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  - Go back to Wireshark and filter traffic for ssh
+  - Go back to Windows Powershell and type ssh (vm2 username @ vm2 ip address) and press enter
+     - Example:  ssh labuser@10.0.0.0.5
+   - Type "yes" to "are you sure you want to continue connecting".
+   - Enter VM2 Password and notice ssh traffic in Wireshark
 
+<img src="https://i.imgur.com/chX1w25.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+     
+   
+   
+
+
+ <h3>Observe DHCP Traffic</h3>
   
 
 
