@@ -19,12 +19,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>High-Level Steps</h2>
+<h2>Prerequisites </h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Create a Windows 10 Virtual Machine using Azure 
+- Create an Ubuntu Server Virtual Machine using Azure 
+
 
 <h2>Actions and Observations</h2>
 
