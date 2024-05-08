@@ -60,7 +60,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  
 - Return to VM1
 - Open Windows Powershell
- - Ping VM2 using its private address.  Notice the Reply
+ - Ping VM2 using its private address.  Notice the Response
 </p>
 <br />
 
@@ -68,6 +68,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/xEoLZbh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Notice icmp traffic on Wireshark
 </p>
 <br />
+<img src="https://i.imgur.com/sxiz0zf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
