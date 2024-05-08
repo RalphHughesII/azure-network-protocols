@@ -73,4 +73,10 @@ Notice icmp traffic on Wireshark
 <br />
 <img src="https://i.imgur.com/sxiz0zf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+- Ping www.google.com -4.  Notice icmp traffic on Wireshark
+
+<img src="https://i.imgur.com/ck5F7Sn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  
+
 
