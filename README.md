@@ -32,7 +32,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  - Download and Install Wireshark (https://www.wireshark.org/download.html)
     - Install Windows 64 bit version
     - Install Wireshark by default settings
-  - Open Wireshark and double click Ethernet Adapter
+  - Open Wireshark and double click Ethernet Adapter.  Wireshark should display live traffic
 
 <p>
 <img src="https://i.imgur.com/nFjvdII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
