@@ -34,12 +34,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     - Install Wireshark by default settings
   - Open Wireshark and double click Ethernet Adapter.  Wireshark should display live traffic on Virtual Machine
 
+
 <p>
 <img src="https://i.imgur.com/nFjvdII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+ 
  - Type icmp in the text box containing "Apply a display filter" and press enter
  - This command will filter traffic by icmp.  No traffic should appear on Wireshark
+   
 
  <img src="https://i.imgur.com/eV3LyQ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
