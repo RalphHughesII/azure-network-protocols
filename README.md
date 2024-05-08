@@ -127,9 +127,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Wireshark data should be cleared
 
 
-   
-   
- <h3>Observe DHCP Traffic</h3>
   
 
 
