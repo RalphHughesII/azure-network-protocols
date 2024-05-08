@@ -70,7 +70,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/xEoLZbh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Notice icmp traffic on Wireshark
+- Notice icmp traffic on Wireshark
 </p>
 <br />
 <img src="https://i.imgur.com/sxiz0zf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
