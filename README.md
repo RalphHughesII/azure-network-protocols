@@ -47,6 +47,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  <img src="https://i.imgur.com/eV3LyQ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
  - Go back to Azure Portal to capture VM2 private ip address
   - Type Virtual Machine in Azure search box, click VM2, notice the private ip address in Networking section
   
