@@ -81,6 +81,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <img src="https://i.imgur.com/ck5F7Sn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+- Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
+   - Click "continue without saving"
+   - Wireshark data should be cleared
+ - go back to Windows Powershell and type "ping (vm2 private address) -t" and press enter.  Observe constant pinging
+
+  <img src="https://i.imgur.com/ho7YOm5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
   
 
 
