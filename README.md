@@ -36,20 +36,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     - Install Wireshark by default settings
   - Open Wireshark and double click Ethernet Adapter.  Wireshark should display live traffic on Virtual Machine
 
-
-
-
+<p>
+<br />
 <img src="https://i.imgur.com/nFjvdII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
- 
  - Type icmp in the text box containing "Apply a display filter" and press enter
  - This command will filter traffic by icmp.  No traffic should appear on Wireshark
 
-   
-
- <img src="https://i.imgur.com/eV3LyQ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+<br />
+<img src="https://i.imgur.com/eV3LyQ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -57,20 +55,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  - Go back to Azure Portal to capture VM2 private ip address
   - Type Virtual Machine in Azure search box, click VM2, notice the private ip address in Networking section
 
-  
 <p>
+<br />
 <img src="https://i.imgur.com/XbM5bwW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
- 
 - Return to VM1
 - Open Windows Powershell
  - Ping VM2 using its private address.  Notice the Response
+
 </p>
 <br />
-
-<p>
 <img src="https://i.imgur.com/xEoLZbh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -80,11 +76,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 <img src="https://i.imgur.com/sxiz0zf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+</p>
+<p>
+ 
 - Ping www.google.com -4.  Notice icmp traffic on Wireshark
 
+<p>
+<br />
 <img src="https://i.imgur.com/ck5F7Sn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+</p>
+<p>
 - Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
    - Click "continue without saving"
    - Wireshark data should be cleared
@@ -98,8 +99,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Type "yes" to "are you sure you want to continue connecting".
    - Enter VM2 Password and notice ssh traffic in Wireshark
 
+<p>
+<br />
 <img src="https://i.imgur.com/chX1w25.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+</p>
+<p>
+ 
  - Type "exit" to close the connection
  - Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
    - Click "continue without saving"
@@ -111,8 +116,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Go back to Windows Powershell and type "ipconfig /renew" and press enter
   - Notice dhcp traffic in Wireshark
 
+<p>
+<br />
 <img src="https://i.imgur.com/IdYMafK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+</p>
+<p>
+ 
  - Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
    - Click "continue without saving"
    - Wireshark data should be cleared
@@ -124,8 +133,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Go back to Windows Powershell and type "nslookup www.google.com" and press enter
   - Notice dns traffic in Wireshark
 
-    <img src="https://i.imgur.com/p9hvNbL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<p>
+<br />
+<img src="https://i.imgur.com/p9hvNbL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 
  - Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
    - Click "continue without saving"
    - Wireshark data should be cleared
