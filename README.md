@@ -42,6 +42,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <p>
 
+
  - Type icmp in the text box containing "Apply a display filter" and press enter
  - This command will filter traffic by icmp.  No traffic should appear on Wireshark
 
@@ -90,6 +91,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Click "continue without saving"
    - Wireshark data should be cleared
  
+
      
  <h3>Observe SSH Traffic</h3>
 
@@ -110,6 +112,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    - Click "continue without saving"
    - Wireshark data should be cleared
 
+
+
  <h3>Observe DHCP Traffic</h3>
 
   - Go back to Wireshark and filter traffic for "dhcp"
@@ -125,6 +129,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  - Clear Wireshark data by clicking the green icon on the upper left of Window (restart current capture)
    - Click "continue without saving"
    - Wireshark data should be cleared
+
 
 
  <h3>Observe DNS Traffic</h3>
